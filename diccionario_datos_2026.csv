@@ -1,0 +1,30 @@
+﻿archivo,variable,descripcion,tipo,escala_unidad
+fintual_users_dataset_2026.csv,user_id,Identificador único del usuario (llave para joins),texto,FTL_00001 … FTL_12000
+fintual_users_dataset_2026.csv,age,Edad del usuario,entero,años; requisito Fintual: 18+
+fintual_users_dataset_2026.csv,total_invested,Monto total invertido,entero,CLP
+fintual_users_dataset_2026.csv,risk_tolerance,Tolerancia al riesgo según perfil de inversionista,entero,1 (muy conservador) a 5 (muy agresivo)
+fintual_users_dataset_2026.csv,months_active,Meses desde el registro,entero,1 a 96
+fintual_users_dataset_2026.csv,app_sessions_month,Sesiones mensuales promedio en la app,entero,sesiones/mes
+user_demographics_2026.csv,user_id,Identificador único del usuario (llave para joins),texto,FTL_00001 … FTL_12000
+user_demographics_2026.csv,region,Región de residencia,categórica,16 regiones de Chile
+user_demographics_2026.csv,genero,Género declarado,categórica,Femenino / Masculino / Otro / Prefiere no decir
+user_demographics_2026.csv,tramo_ingreso,Ingreso líquido mensual declarado,categórica ordinal,5 tramos en CLP
+user_demographics_2026.csv,ocupacion,Situación ocupacional,categórica,Estudiante / Dependiente / Independiente / Empresario / Jubilado
+user_demographics_2026.csv,banco_principal,Institución donde recibe su sueldo o mantiene su cuenta principal,categórica,12 categorías
+user_demographics_2026.csv,tiene_tarjeta_credito,Tenencia de al menos una tarjeta de crédito,binaria,Sí / No
+user_demographics_2026.csv,n_tarjetas_credito,Número de tarjetas de crédito,entero,0 a 4
+user_demographics_2026.csv,billetera_digital_principal,Billetera o tarjeta de prepago más usada,categórica,Mercado Pago / Tenpo / MACH / Otra / Ninguna
+user_demographics_2026.csv,gasto_mensual_tarjetas_clp,"Gasto mensual estimado con tarjetas (débito, crédito y prepago)",entero,CLP
+user_demographics_2026.csv,interes_fintual_card,Interés declarado en una tarjeta Fintual (encuesta in-app),entero,1 (nada interesado) a 5 (muy interesado)
+fintual_perception_dataset_2026.csv,user_id,Respondente (subconjunto de usuarios; llave para joins),texto,3.000 respondentes
+fintual_perception_dataset_2026.csv,brand,Marca evaluada,categórica,"Fintual, Racional, Mercado Pago, Tenpo, MACH, Banco Falabella, Banco de Chile"
+fintual_perception_dataset_2026.csv,ease_of_use,Facilidad de uso,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,fees_transparency,Transparencia en comisiones,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,investment_options,Opciones de inversión,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,customer_support,Soporte al cliente,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,mobile_experience,Experiencia móvil,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,educational_content,Contenido educativo,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,trust_security,Confianza y seguridad,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,returns_performance,Rendimientos percibidos,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,social_impact,Impacto social,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
+fintual_perception_dataset_2026.csv,innovation,Innovación,entero,1 (muy malo) a 7 (excelente); vacío = No sabe / No responde
