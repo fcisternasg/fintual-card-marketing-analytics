@@ -1,5 +1,6 @@
 # Configuraciones locales 
 .vscode/
+.idea/
 
 # Avances personales
 Avance/
